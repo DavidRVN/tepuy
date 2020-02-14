@@ -138,7 +138,7 @@ a:hover {
 }
 
 button.general {
-    background-color: #3778cc;
+     background-color: #1C313A;
     color: #fff;
     font-weight:bold;
     border: none;
@@ -149,7 +149,7 @@ button.general {
 }
 
 button.general.active, button.general:hover {
-    background-color: #f6ae00;
+    background-color: #E6953A;
 }
 
 blockquote {
@@ -1050,31 +1050,33 @@ sup.tooltip {
 }
 
 .ctrl-pagination .previous {
-    background: url(../img/sprite.png) no-repeat -111px 0;
-    width: 21px;
-    height: 21px;
+background: #1C313A url(../content/sprite_gral.png) no-repeat -422px -2px;
+    width: 28px;
+    height: 28px;
     float: left;
     cursor: pointer;
-    margin-top: 1px;
-    margin-right: 3px;
+    margin-top: -3px;
+    margin-right: 2px;
+    border-radius: 15px;
 }
 
 .ctrl-pagination .previous:hover {
-    background-position: -111px -50px;
+    background: #1C313A url(../content/sprite_gral.png) no-repeat -465px -2px;
 }
 
 .ctrl-pagination .next {
-    background: url(../img/sprite.png) no-repeat -141px 0;
-    width: 21px;
-    height: 21px;
+    background: #1C313A url(../content/sprite_gral.png) no-repeat -506px -2px;
+    width: 28px;
+    height: 28px;
     float: left;
     cursor: pointer;
-    margin-top: 1px;
-    margin-left: 3px;
+    margin-top: -3px;
+    margin-right: 2px;
+    border-radius: 15px;
 }
 
 .ctrl-pagination .next:hover {
-    background-position: -141px -50px;
+     background: #1C313A url(../content/sprite_gral.png) no-repeat -548px -2px;
 }
 
 .ctrl-pagination ul.pagination.numeric li div {
@@ -2262,7 +2264,7 @@ main{
     color: #333333;
 }
 
-.box-text.important .box_body p:before{
+.box-text.important .box_body:before{
     content: "";
     background:  url(../content/sprite_text.png) no-repeat -271px 0px;
     font-size : 25px;
@@ -2317,7 +2319,7 @@ main{
     font-weight: bold;
 }
 
-.box-text.example .box_body p:before{
+.box-text.example .box_body:before{
     content: "";
     background: url(../content/sprite_text.png) no-repeat -154px -14px;
     font-size: 25px;
@@ -2358,7 +2360,7 @@ main{
     padding-left: 41px;
 }
 
-.box-text.note .box_body p:before{
+.box-text.note .box_body:before{
     content: "";
     background:url(../content/sprite_text.png) no-repeat -380px -9px;
     font-size: 25px;
@@ -2407,7 +2409,7 @@ main{
     font-size: 13px;
     color: #333333;
 }
-.box-text.link .box_body p:before{
+.box-text.link .box_body:before{
     content: "";
     background: url(../content/sprite_text.png) no-repeat -497px -6px;
     font-size: 25px;
@@ -2439,7 +2441,7 @@ main{
     color: #333333;
     font-weight: bold;
 }
-.box-text.connection .box_body p:before{
+.box-text.connection .box_body:before{
     content: "";
     background: url(../content/sprite_text.png) no-repeat -675px -6px;
     font-size: 25px;
@@ -2475,7 +2477,7 @@ main{
     padding-left: 35px;
 }
 
-.box-text.activity .box_body p:before{
+.box-text.activity .box_body:before{
     content: "";
     background: url(../content/sprite_text.png) no-repeat -603px -11px;
     font-size: 25px;
@@ -2742,4 +2744,20 @@ div.iconsound.active, button.iconsound.active {
     color: #000000;
     background-color: #fbf9ea;
     border:solid #82a8ac 1px;
+}
+i.home_nuevo:before{
+    content: "";
+    background: url(../content/sprite_gral.png) no-repeat -42px 6px;
+    margin: 0;
+    width: 32px;
+    height: 38px;
+    display: inline-block;
+}
+i.return_new:before{
+     content: "";
+    background: url(../content/sprite_gral.png) no-repeat -209px 6px;
+    margin: 0;
+    width: 32px;
+    height: 38px;
+    display: inline-block;
 }

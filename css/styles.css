@@ -411,7 +411,7 @@ nav.globals li {
     margin: 0;
     font-weight: bold;
     cursor: pointer;
-    
+
 }
 
 nav.globals li.active, nav.globals li.current {
@@ -2273,4 +2273,22 @@ background: #1C313A url(../content/sprite_gral.png) no-repeat -422px -2px;
     background-color: #1C313A;
     border: solid #788595 2px;
     height: 70px;
+}
+
+
+i.home_nuevo:before{
+    content: "";
+    background: url(../content/sprite_gral.png) no-repeat -42px 6px;
+    margin: 0;
+    width: 32px;
+    height: 38px;
+    display: inline-block;
+}
+i.return_new:before{
+     content: "";
+    background: url(../content/sprite_gral.png) no-repeat -209px 6px;
+    margin: 0;
+    width: 32px;
+    height: 38px;
+    display: inline-block;
 }
