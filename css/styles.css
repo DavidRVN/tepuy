@@ -300,7 +300,6 @@ nav.horizontal ul.menu > li {
     padding: 10px 10px;
     margin: 0 0 0 0;
     min-width: 120px;
-    font-weight: bold;
     height: 15px;
     cursor: pointer;
     border-right: 0;
@@ -372,6 +371,7 @@ nav.horizontal ul.submenu > li.active, nav.horizontal ul.submenu > li.current {
     font-size: 13px;
     background-color: #e6953a;
     color: #FFFFFF;
+    font-weight: bold;
 }
 
 /*--------------------------*/
