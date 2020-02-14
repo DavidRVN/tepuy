@@ -816,7 +816,7 @@ footer {
 .wf-content .close {
     position: absolute;
     padding: 3px;
-    background-color: #3778cc;
+    background-color: #1C313A;
     border-radius: 5px;
     border-color: #819e52;
     line-height: 24px;
@@ -2102,7 +2102,7 @@ background: #1C313A url(../content/sprite_gral.png) no-repeat -422px -2px;
 }
 
 #results_page .result_sco.visited, #results_page .result_sco.active {
-    background-color: #7bb004;
+    background-color: #E6953A;
 }
 
 /* ----------------- */
