@@ -1119,6 +1119,7 @@ sup.tooltip {
 
 .vertical-menu-both-sides .chalkboard_both_items_left .chalkboard_both_item {
     text-align: center;
+    line-height: 40px;
 }
 
 .vertical-menu-both-sides .chalkboard_both_items_right {
@@ -1128,6 +1129,7 @@ sup.tooltip {
 
 .vertical-menu-both-sides .chalkboard_both_items_right .chalkboard_both_item {
     text-align: center;
+    line-height: 40px;
 }
 
 .vertical-menu-both-sides .chalkboard_both_item {
