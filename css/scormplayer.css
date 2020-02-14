@@ -48,12 +48,13 @@ em {
 button.general {
     background-color: #1c313A;
     color: #fff;
-    font-weight:bold;
+    font-weight:500;
     border: none;
     padding: 5px 10px;
-    box-shadow: 3px 4px 4px #c9c9c9;
     cursor: pointer;
-    border-radius: 4px;
+    box-shadow: 3.02px 3.02px 0px rgba(0,0,0,0.2);
+    font-family: Roboto;
+    font-size: 16px;
 }
 
 button.general.active, button.general:hover {
