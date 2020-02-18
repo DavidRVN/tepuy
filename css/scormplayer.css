@@ -25,6 +25,8 @@ body {
     position: relative;
     line-height: 20px;
     text-align: justify;
+    left: -63px;
+    top: 46px;
 
 }
 
@@ -83,6 +85,7 @@ button.general.active, button.general:hover {
     text-align: justify;
     background: #abbccc;
     box-shadow: 6.8px 6.8px 0px rgba(0,0,0,0.2);
+    height: 1150px;
 }
 
 .dos {
@@ -93,6 +96,9 @@ button.general.active, button.general:hover {
     text-align: justify;
     background: #465a63;
     box-shadow: 6.8px 6.8px 0px rgba(0,0,0,0.2);
+    left: -50px;
+    top: 53px;
+    height: 1098px;
 }
 
 
@@ -127,4 +133,8 @@ button.general:before {
 button.general.active, button.general:hover {
     background-color: #e6953a;
     color: #fff;
+}
+
+.logo_intro{
+    float: left;
 }
