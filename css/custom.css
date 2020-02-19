@@ -44,17 +44,22 @@
 /* Solo para ejemplo de mouse over 1
 /********************************************************************************/
 #pag-textos-mouseover1 .mouse-over-one .button {
-    background: #FFFFFF;
-    border: dashed #00A5C0 1px;
+    background: #1c313a;
+    border: 0;
     float: left;
     margin: 10px;
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
     padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 45px;
+    color: #FFFFFF;
+    font-size: 45px;
 }
 
 #pag-textos-mouseover1 .mouse-over-one .button:hover {
-    background: #f6ae00;
+    background: #e6953a;
 }
 
 #pag-textos-mouseover1 .mouse-over-one {
@@ -68,11 +73,11 @@
 #pag-textos-mouseover1 .contenido_sobre {
     padding: 10px;
     text-align: justify;
-    box-shadow: 7px 7px 5px #cccccc;
+    box-shadow: none;
     background: #FFFFFF;
-    border: 1px solid #aaa;
+    border: 1px solid #588797;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 0;
 }
 
 #pag-textos-mouseover1 .element { height: 100px; overflow: auto; }
@@ -81,27 +86,32 @@
 /* Solo para ejemplo de mouse over 2
 /********************************************************************************/
 #pag-textos-mouseover2 .mouse-over {
-    background: #FFFFFF;
-    border: dashed #00A5C0 1px;
+    background: #1c313a;
+    border: 0;
     margin: 10px auto;
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
     padding: 10px;
     width: 10px;
+    border-radius: 45px;
+    width: 50px;
+    height: 50px;
+    font-size: 45px;
+    color: #FFFFFF;
 }
 
 #pag-textos-mouseover2 .mouse-over:hover {
-    background: #f6ae00;
+    background: #e6953a;
 }
 
 #pag-textos-mouseover2 .contenido_sobre {
     padding: 10px;
     text-align: justify;
-    box-shadow: 7px 7px 5px #cccccc;
+    box-shadow: none;
     background: #FFFFFF;
-    border: 1px solid #aaa;
+    border: 1px solid #588797;
     margin-bottom: 20px;
-    border-radius: 5px;
+    border-radius: 0;
 }
 
 /********************************************************************************/
@@ -268,23 +278,23 @@
 }
 
 #pag-actividades-arrastrar1 .item_1 {
-     left: 50px;
+   left: 50px;
 }
 
 #pag-actividades-arrastrar1 .item_2 {
-     left: 150px;
+   left: 150px;
 }
 
 #pag-actividades-arrastrar1 .item_3 {
-     left: 250px;
+   left: 250px;
 }
 
 #pag-actividades-arrastrar1 .item_4 {
-     left: 350px;
+   left: 350px;
 }
 
 #pag-actividades-arrastrar1 .item_5 {
-     left: 450px;
+   left: 450px;
 }
 
 /********************************************************************************/
